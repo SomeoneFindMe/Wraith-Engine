@@ -51,13 +51,13 @@ git clone https://github.com/SomeoneFindMe/Wraith-Engine.git
 
 # Grant permissions and launch Project-Wraith
 cd ~/Wraith-Engine
-chmod +x Wraith_Engine_Setup.sh
-./Wraith_Engine_Setup.sh
+chmod +x patcher.sh
+./patcher.sh
 ```
 okay just run the command for use this any time 
 ```
 cd Project Wraith
-./Wraith_Engine_Setup.sh
+./patcher.sh
 ```
 after this give the exactly apth of apk like 
 ⚡👇👇

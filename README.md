@@ -32,15 +32,20 @@ Project Wraith is a high-speed, automated terminal interface built for Termux. D
 
 ### 1. Requirements
 Ensure you have the latest Termux environment. The setup script will automatically install:
-* `openjdk-17`
+* `openjdk-21`
 * `python`
 * `apksigner`
 
 ### 2. Bootstrapping
 Clone the repository and launch the setup:
 ```bash
-git clone https://github.com/SomeoneFindMe/Wraith-Engine.git 
-cd Project-Wraith
+# Update and install core dependencies
+pkg update && pkg upgrade -y
+pkg install openjdk-21 git -y
+# Clone the repository
+git clone
+https://github.com/SomeoneFindMe/Wraith-Engine.git 
+# Grant permissions and launch Project-Wraith
 chmod +x Wraith_Engine_Setup.sh
 ./Wraith_Engine_Setup.sh
 ```
@@ -52,8 +57,9 @@ cd Project Wraith
 after this give the exactly apth of apk like 
 ⚡👇👇
 
-`/storage/emulated/0/MT2/apks/STORY TV_1.1.3.apk
-`
+``
+/storage/emulated/0/MT2/apks/STORY TV_1.1.3.apk
+``
 3. Usage
 Run the script from your project directory.
 When prompted, provide the full path to your target APK:

@@ -44,7 +44,7 @@ pkg update && pkg upgrade -y
 pkg install openjdk-21 git -y
 # Clone the repository
 git clone
-https://github.com/SomeoneFindMe/Wraith-Engine.git 
+https://github.com/SomeoneFindMe/Wraith-Engine.git
 # Grant permissions and launch Project-Wraith
 chmod +x Wraith_Engine_Setup.sh
 ./Wraith_Engine_Setup.sh
@@ -57,13 +57,16 @@ cd Project Wraith
 after this give the exactly apth of apk like 
 ⚡👇👇
 
-``
+```
 /storage/emulated/0/MT2/apks/STORY TV_1.1.3.apk
-``
+```
 3. Usage
 Run the script from your project directory.
 When prompted, provide the full path to your target APK:
-> Drag & Drop Target .apk : /storage/emulated/0/MT2/apks/example.apk
+> Drag & Drop Target .apk
+```
+/storage/emulated/0/MT2/apks/example.apk
+```
 The engine will process the file silently and save the modded APK as example_Wraith_Mod.apk in the same folder.
 👤 Developer
 𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭◄⏤‌‌🦋꯭S‌‌‌‌‌‌om‌‌‌‌‌‌‌‌‌‌‌‌‌e‌o‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌n‌‌e⏤‌‌🦋꯭ 18-year-old System Modding Ninja & AI Enthusiast.

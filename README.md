@@ -13,7 +13,7 @@ Project Wraith is a high-speed, automated terminal interface built for Termux. D
 
 * **🧠 Master Ad-Wiper:** Utilizes a custom Python brain to perform brute-force string replacement and NOP (No Operation) opcode injection, ensuring ads are neutralized without Dalvik crashes.
 * **🚀 Zero-Storage Footprint:** Built with an aggressive cleanup architecture. It automatically purges temporary build files (`apktool_temp`, `.idsig`, etc.) from both Termux and your local storage after every run.
-* **📱 Redmi 5 Optimized:** Optimized for low-memory environments. Features quiet-mode building and thread-limited Python processing to prevent system freezes.
+* **📱 Optimized:** Optimized for low-memory environments. Features quiet-mode building and thread-limited Python processing to prevent system freezes.
 * **🛡️ Native Android Signing:** Uses native Termux `apksigner` with a generated debug keystore, bypassing heavy desktop Java tools that crash on mobile processors.
 * **🎨 NextGen UI:** Curved-pipe terminal layout with real-time percentage tracking, keeping your workspace clean and professional.
 
@@ -44,5 +44,22 @@ cd Project-Wraith
 chmod +x Wraith_Engine_Setup.sh
 ./Wraith_Engine_Setup.sh
 ```
-Open everything okay just run the command 
-cd 
+okay just run the command for use this any time 
+```
+cd Project Wraith
+./Wraith_Engine_Setup.sh
+```
+after this give the exactly apth of apk like 
+⚡👇👇
+
+`/storage/emulated/0/MT2/apks/STORY TV_1.1.3.apk
+`
+3. Usage
+Run the script from your project directory.
+When prompted, provide the full path to your target APK:
+> Drag & Drop Target .apk : /storage/emulated/0/MT2/apks/example.apk
+The engine will process the file silently and save the modded APK as example_Wraith_Mod.apk in the same folder.
+👤 Developer
+𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭◄⏤‌‌🦋꯭S‌‌‌‌‌‌om‌‌‌‌‌‌‌‌‌‌‌‌‌e‌o‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌n‌‌e⏤‌‌🦋꯭ 18-year-old System Modding Ninja & AI Enthusiast.
+GitHub: SomeoneFindMe | Telegram: NextGenModsOfficial
+⭐ If you find this engine useful, please star the repository!

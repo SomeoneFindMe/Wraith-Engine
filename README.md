@@ -50,6 +50,7 @@ pkg install openjdk-21 git -y
 git clone https://github.com/SomeoneFindMe/Wraith-Engine.git
 
 # Grant permissions and launch Project-Wraith
+cd ~/Wraith-Engine
 chmod +x Wraith_Engine_Setup.sh
 ./Wraith_Engine_Setup.sh
 ```

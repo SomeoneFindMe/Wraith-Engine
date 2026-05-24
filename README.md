@@ -39,7 +39,7 @@ Ensure you have the latest Termux environment. The setup script will automatical
 ### 2. Bootstrapping
 Clone the repository and launch the setup:
 ```bash
-git clone 
+git clone https://github.com/SomeoneFindMe/Wraith-Engine.git 
 cd Project-Wraith
 chmod +x Wraith_Engine_Setup.sh
 ./Wraith_Engine_Setup.sh

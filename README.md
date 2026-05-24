@@ -46,8 +46,9 @@ git clone https://github.com/SomeoneFindMe/Wraith-Engine.git
 pkg update && pkg upgrade -y
 pkg install openjdk-21 git -y
 # Clone the repository
-git clone
-https://github.com/SomeoneFindMe/Wraith-Engine.git
+
+git clone https://github.com/SomeoneFindMe/Wraith-Engine.git
+
 # Grant permissions and launch Project-Wraith
 chmod +x Wraith_Engine_Setup.sh
 ./Wraith_Engine_Setup.sh

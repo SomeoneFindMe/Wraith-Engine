@@ -3,7 +3,7 @@
 ![Bash](https://img.shields.io/badge/Script-Bash-darkgreen.svg)
 ![Platform](https://img.shields.io/badge/Platform-Android-green.svg)
 ![Engine](https://img.shields.io/badge/Engine-Wraith_V11-orange.svg)
-![Optimization](https://img.shields.io/badge/Optimization-Redmi_5-red.svg)
+![Optimization](https://img.shields.io/badge/Optimization-R_Lowend_Device.svg)
 
 Project Wraith is a high-speed, automated terminal interface built for Termux. Designed specifically for low-RAM devices like the Redmi 5, it automates the extraction, ad-stripping, rebuilding, and signing of APK files without consuming unnecessary storage.
 

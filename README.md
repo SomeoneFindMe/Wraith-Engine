@@ -39,6 +39,9 @@ Ensure you have the latest Termux environment. The setup script will automatical
 ### 2. Bootstrapping
 Clone the repository and launch the setup:
 ```bash
+git clone https://github.com/SomeoneFindMe/Wraith-Engine.git
+```
+```bash
 # Update and install core dependencies
 pkg update && pkg upgrade -y
 pkg install openjdk-21 git -y

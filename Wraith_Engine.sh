@@ -41,13 +41,13 @@ echo -e "${C}│${NC} ${M}         ℕ 𝔼 𝕏 𝕋 𝔾 𝔼 ℕ 𝕄 𝕆 �
 echo -e "${C}│${NC} ${Y}        P r o j e c t   W r a i t h      ${NC}${C}│${NC}"
 echo -e "${C}╰──────────────────────────────────────────╯${NC}"
 echo -e "${C}│${NC} ${M}◈ CREATOR:${NC} ${Y}$MY_NAME${NC}"
-echo -e "${C}│${NC} ${M}◈ ENGINE: ${NC} ${G}Wraith All-In-One V12${NC}"
+echo -e "${C}│${NC} ${M}◈ ENGINE: ${NC} ${G}Wraith Offline V12${NC}"
 echo -e "${C}│${NC} ${M}◈ HW RAM: ${NC} ${W}Xmx${RAM_LIMIT} Allocated${NC}"
 echo -e "${C}╰───────────────────────────────────────────${NC}"
 echo ""
 
-# Absolute Path Lock (Fixes the "Missing Files" error)
-WORK_DIR="$HOME/Wraith_Engine"
+# The exact path based on your screenshot
+WORK_DIR="$HOME/Wraith-Engine"
 APKTOOL="$WORK_DIR/tools/apktool.jar"
 KEYSTORE="$WORK_DIR/tools/debug.keystore"
 BRAIN="$WORK_DIR/tools/brain.py"

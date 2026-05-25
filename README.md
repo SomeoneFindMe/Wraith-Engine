@@ -41,23 +41,30 @@ Clone the repository and launch the setup:
 ```bash
 git clone https://github.com/SomeoneFindMe/Wraith-Engine.git
 ```
+All In One One command 👇👇👇⚡⚡⚡ Just past this into your Termux or PC terminal Commands 
 ```bash
-# Update and install core dependencies
-pkg update && pkg upgrade -y
-pkg install openjdk-21 git -y
-# Clone the repository
 
+# 1. Ensure Git is installed in Termux
+pkg update -y && pkg install git -y
+pkg install openjdk-21 git -y
+
+# 2. Download your entire pre-packaged engine from GitHub
 git clone https://github.com/SomeoneFindMe/Wraith-Engine.git
 
-# Grant permissions and launch Project-Wraith
-cd ~/Wraith-Engine
-chmod +x patcher.sh
-./patcher.sh
+# 3. Go into your new folder
+cd Wraith-Engine
+
+# 4. Give the engine permission to run
+chmod +x Wraith_Engine.sh
+
+# 5. Start the engine!
+./Wraith_Engine.sh
+
 ```
 okay just run the command for use this any time 
 ```
-cd Project Wraith
-./patcher.sh
+cd Wraith-Engine
+./Wraith_Engine.sh
 ```
 after this give the exactly apth of apk like 
 ⚡👇👇

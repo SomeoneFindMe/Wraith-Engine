@@ -1,4 +1,4 @@
-# 🛡️ Project Wraith: Ad-Buster Engine
+# 🛡️ Project Wraith: Ad-Buster Engine & Multiple bulk string replace 
 
 ![Bash](https://img.shields.io/badge/Script-Bash-darkgreen.svg)
 ![Platform](https://img.shields.io/badge/Platform-Android-green.svg)

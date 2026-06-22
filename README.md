@@ -12,6 +12,8 @@ Project Wraith is a high-speed, automated terminal interface built for Termux. D
 ## ⚡ Supercharged Features
 
 * **🧠 Master Ad-Wiper:** Utilizes a custom Python brain to perform brute-force string replacement and NOP (No Operation) opcode injection, ensuring ads are neutralized without Dalvik crashes.
+* **Multiple apk string** this **Wraith_Infinity_Max.sh** patcher can change the string in smali in same time . means it can patch or replace string by giving target and replace string and it's changed rhe string in smalli ..
+* its support parallel string replace. mean you can change string in any apk side by side .
 * **🚀 Zero-Storage Footprint:** Built with an aggressive cleanup architecture. It automatically purges temporary build files (`apktool_temp`, `.idsig`, etc.) from both Termux and your local storage after every run.
 * **📱 Optimized:** Optimized for low-memory environments. Features quiet-mode building and thread-limited Python processing to prevent system freezes.
 * **🛡️ Native Android Signing:** Uses native Termux `apksigner` with a generated debug keystore, bypassing heavy desktop Java tools that crash on mobile processors.
@@ -53,19 +55,21 @@ git clone https://github.com/SomeoneFindMe/Wraith-Engine.git
 
 # 3. Go into your new folder
 cd Wraith-Engine
-
-# 4. Give the engine permission to run
-chmod +x Wraith_Engine.sh
-
-# 5. Start the engine!
-./Wraith_Engine.sh
-
 ```
-okay just run the command for use this any time 
+okay just run the command for use this any time for ads patch 
 ```
 cd Wraith-Engine
-./Wraith_Engine.sh
+chmod +x Wraith_Engine.sh
+bash Wraith_Engine.sh
 ```
+Run this for bulk quantity string replacement  
+it's can run unlimited task that your device can handel .. be happy 😊 be ethical 
+```
+cd Wraith-Engine
+chmod +x Wraith_Infinity_Max.sh
+bash Wraith_Infinity_Max.sh
+```
+
 after this give the exactly apth of apk like 
 ⚡👇👇
 
